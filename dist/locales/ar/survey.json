@@ -1,0 +1,31 @@
+{
+  "SM_QUESTIONNAIRE_REPORT": {
+    "questionnaire": "اسم الاستبيان",
+    "d_program": "البرنامج",
+    "d_category": "الفئة",
+    "d_business_unit": "وحدة الأعمال",
+    "scoring": "تمكين التسجيل"
+  },
+  "SM_APPROVER_REPORTS": {
+    "task_title": "العنوان",
+    "questionnaire_name": "اسم الاستبيان",
+    "d_program": "البرنامج",
+    "status": "الحالة",
+    "d_business_unit": "وحدة الأعمال",
+    "scoring": "تمكين التسجيل"
+  },
+  "SM_REJECTED_SURVEYS": {
+    "task_title": "العنوان",
+    "questionnaire_name": "اسم الاستبيان",
+    "d_category": "الفئة",
+    "d_program": "البرنامج",
+    "d_business_unit": "وحدة الأعمال"
+  },
+  "SM_RESPONSE_REPORT": {
+    "task_title": "العنوان",
+    "questionnaire_name": "اسم الاستبيان",
+    "status": "الحالة",
+    "d_program": "البرنامج",
+    "d_business_unit": "وحدة الأعمال"
+  }
+}

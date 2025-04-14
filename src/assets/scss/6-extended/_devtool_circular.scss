@@ -1,0 +1,128 @@
+/// DevElopment Tools code
+.devtool {
+  color: #3f80ea;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.devtool-icon {
+  color: rgb(93, 138, 93);
+}
+.devtool-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
+  justify-content: space-between;
+  padding: 0 16px;
+  margin: auto;
+  width: 90%;
+}
+
+.devtool-card {
+  flex: 1 1 calc(33.33% - 32px);
+  height: 100px;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  // background-color: lightgray;
+}
+
+.devtool-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.devtool-icon {
+  margin-right: 10px;
+}
+@media (max-width: 1200px) {
+  .devtool-card {
+    flex: 1 1 calc(50% - 32px); /* Two cards per row on medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .devtool-card {
+    flex: 1 1 calc(100% - 32px); /* One card per row on small screens */
+    width: 70%;
+  }
+}
+
+//design 3
+.circle-container {
+  position: relative;
+  width: 685px;
+  height: 685px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // border: 1px solid;
+}
+
+.outer-circle {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  // border: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-circle {
+  position: absolute;
+  width: 196px; /* Adjust as needed */
+  height: 196px; /* Adjust as needed */
+  border-radius: 50%;
+  // border: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-container {
+  position: absolute;
+  // width: 173px;
+
+  width: 200px;
+  height: 173px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+}
+
+.card-position-1 {
+  top: 14%;
+  left: 50%;
+}
+.card-position-2 {
+  top: 35%;
+  left: 77.5%;
+}
+.card-position-3 {
+  top: 68%;
+  left: 77.5%;
+}
+.card-position-4 {
+  top: 90%;
+  left: 50%;
+}
+.card-position-5 {
+  top: 68%;
+  left: 22.5%;
+}
+.card-position-6 {
+  top: 35%;
+  left: 22.5%;
+}
+
+.devtool-card {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.devtool-card:hover {
+  transform: scale(1.1);
+}

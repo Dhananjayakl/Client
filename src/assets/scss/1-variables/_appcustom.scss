@@ -1,0 +1,15 @@
+$spacer: 1rem !default;
+$navbar-padding-y: 0.5rem !default;
+$content-padding: 0.7rem !default;
+$border-color: #6c757d !default;
+$card-spacer-y: $spacer*0.3 !default;
+// $blue: 			#032D42 !default;
+$primary:#032D42 !default;
+$link-decoration: underline !default;
+
+$sidebar-link-child-active-color: (
+  "default": #4da1ca,
+  "colored": #fff,
+  "dark": #4da1ca,
+  "light": #4da1ca
+) !default;

@@ -1,0 +1,1 @@
+export const NaviagationList='SELECT P.PAGE_ID,P.PAGE_TITLE,P.PAGE_NAME, API_HANDLER, M.NAME,M.ICON,M.admin_setup,M.acronym_app FROM PA_ROLES R , PA_PAGES P , PA_MODULES M WHERE   :USER_ID = ANY(users) AND CAST(P.privilege AS integer) = ANY(R.privileges) AND P.MODULE_ID = M.ID AND M.active=true AND M.disable_Navigation  = false';

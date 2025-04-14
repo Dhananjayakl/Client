@@ -1,0 +1,12 @@
+.react-select-container {
+    .react-select__control {
+      background-color: $white;
+      border-color: $gray-900;
+      color: $gray-700;
+      transition: none;
+  
+      &:hover {
+        border-color: $gray-800;
+      }
+    }
+}

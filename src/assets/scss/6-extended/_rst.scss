@@ -1,0 +1,23 @@
+.tree-container {
+  width: 900px;
+  height: 500px;
+}
+
+.tree-container.dark-theme .rst__rowContents {
+  background-color: #293042;
+}
+
+.tree-container .rst__node {
+  display: flex;
+}
+
+.tree-container .rst__lineBlock {
+  flex: 0 0 auto;
+}
+
+.tree-container .rst__nodeContent {
+  flex: 0 1 auto;
+  left: auto !important;
+  position: relative !important;
+  width: 100%;
+}

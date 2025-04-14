@@ -1,0 +1,1 @@
+import{j as r,R as t,S as o}from"./main-BSlzRRNT.js";import"./chartjs-b1JVRw0D.js";import"./Chart-v7nU5vCU.js";import"./googlemaps-Dk_mmaZe.js";import"./apexcharts-BosuxZz1.js";import"./vectormaps-BVPPmnbV.js";import"./index.esm-D178kCZL.js";let x=()=>r.jsx(r.Fragment,{children:r.jsx(t,{children:r.jsx(o,{report:"MODULE_REPORT"})})});export{x as default};

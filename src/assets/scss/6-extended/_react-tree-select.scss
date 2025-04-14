@@ -1,0 +1,61 @@
+.react-tree .dropdown-trigger {
+  display: inline-block;
+  width: 100%;
+  // padding: 0.25rem 0.7rem;
+  font-size: 0.825rem;
+  font-weight: 400;
+  line-height: 1.625;
+  color: #495057;
+  appearance: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid var(--bs-border-color) !important;
+  border-radius: var(--bs-border-radius);
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+// .react-tree .dropdown-trigger.arrow.top::after {
+//   content: "" !important;
+// }
+// .react-tree .dropdown-trigger.arrow.top::before {
+//   content: "" !important;
+// }
+
+.react-tree .dropdown {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.react-tree .search {
+  border-bottom: none !important;
+}
+
+.react-tree-required .dropdown-trigger {
+  border-left: 4px solid #3266bb !important;
+}
+
+.react-tree-danger .dropdown-trigger {
+  border-left: 4px solid var(--bs-form-invalid-border-color) !important;
+  border: 1px solid var(--bs-form-invalid-border-color) !important;
+}
+.react-tree-dark .dropdown {
+  background-color: #293042;
+
+  min-width: 100%;
+}
+.react-tree-dark .search {
+  background-color: #293042;
+}
+.react-tree-none .dropdown-content {
+  display: none;
+  background-color: #293042 !important;
+}
+.react-tree-dark .node.focused {
+  background-color: rgba(25, 103, 210, 255) !important;
+}
+.react-tree-dark .trigger.dropdown-trigger.arrow.top::after {
+  color: white !important;
+}
+
+.react-tree-dark .dropdown-trigger {
+  background-color: #293042;
+}

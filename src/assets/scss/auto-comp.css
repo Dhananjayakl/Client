@@ -1,0 +1,203 @@
+/* Base styles */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Header styles */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Custom dropdown styles */
+.custom-dropdown {
+  position: relative;
+  z-index: 999;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 150px;
+  /* Add any other necessary styles */
+}
+
+/* Link styles */
+.App-link {
+  color: #61dafb;
+}
+
+/* Animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Selected items container styles */
+.selected-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  
+}
+
+/* Selected item styles */
+.selected-item {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+/* Button styles */
+.selected-item button {
+  padding: 3px 3px;
+  font-size: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  
+}
+
+/* Button hover styles */
+.selected-item button:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
+
+.app-container input.autocomplete-input {
+  width: 800px; 
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;/* Adjust the width as needed */
+  margin-bottom: 30px;
+}
+
+
+/* Update the styles for selected items */
+.selected-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.selected-item {
+  display: inline-block;
+  margin-right: 0px;
+  background-color: #f0f0f0; /* Set a background color, e.g., light gray */
+  padding: 0px 0px; /* Adjust padding for the selected items */
+  border-radius: 4px;
+  font-size: 12px; /* Adjust font size */
+  color: #333; /* Set the text color, e.g., dark gray */
+}
+
+/* Reduce the button size and adjust font size */
+.selected-item button {
+  cursor: pointer;
+  margin-bottom: 5px; /* Add some vertical spacing between items */
+  padding: 3px 6px; /* Reduce padding to make items smaller */
+  background-color: #f0f0f0; /* Background color for unselected items */
+  border-radius: 4px;
+  font-size: 15px; /* Reduce font size to make text smaller */
+  color: #ec6464;/* Remove the button border */
+}
+
+/* Additional styling for buttons on hover */
+.selected-item button:hover {
+  background-color: #e8cecd; /* Change background color on hover */
+  cursor: pointer;
+}
+
+/* Style the suggestions list */
+.suggestions-list {
+  list-style: none; /* Remove bullet points or numbers */
+  padding: 0; /* Remove any padding */
+}
+
+/* Style each suggestion item within the list */
+.suggestions-list li {
+  cursor: pointer;
+  margin-bottom: 5px; /* Add some vertical spacing between items */
+  padding: 3px 6px; /* Reduce padding to make items smaller */
+  background-color: #f0f0f0; /* Background color for unselected items */
+  border-radius: 4px;
+  font-size: 12px; /* Reduce font size to make text smaller */
+  color: #333; /* Text color for unselected items */
+}
+
+/* Change background color and text color when hovering over items */
+.suggestions-list li:hover {
+  background-color: #007bff; /* Background color for selected items */
+  color: #fff; /* Text color for selected items */
+}
+
+.button-with-margin{
+  margin-right: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 2px 6px; 
+  border-color:white;
+  background-color:#84aef2;
+}
+
+.button-with-margin {
+  margin-right: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 2px 6px;
+  background-color: #84aef2;
+}
+
+/* CSS */
+.selected-items-container {
+  position: relative; /* Set the parent container to relative positioning */
+}
+
+.autocomplete-input {
+  /* Add your existing styles for the input element */
+
+  /* Set a high z-index to ensure it appears on top of other content */
+  z-index: 1; /* You can adjust this value as needed */
+  position: absolute; /* Position the input element absolutely within its parent */
+}
+
+/* Styles for suggestions list */
+.suggestions-list {
+  /* Add your existing styles for the suggestion list */
+
+  /* Set a higher z-index value to make it appear on top */
+  z-index: 2; /* You can adjust this value as needed */
+  position: absolute; /* Position the suggestion list absolutely within its parent */
+  margin-top: 30px;
+  width: 800px;
+  background-color:white;
+}
+
+
+
+
+
+
+
+

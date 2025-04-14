@@ -1,0 +1,39 @@
+.react-phone-input-danger {
+  // --react-international-phone-border-radius:5px;
+  --react-international-phone-height: 45px;
+  --react-international-phone-border-color: #d9534f;
+}
+.react-phone-input-noDanger {
+  // --react-international-phone-border-radius:5px;
+  --react-international-phone-height: 45px;
+  --react-international-phone-border-color: #545968;
+}
+.react-phone-input-noRequired {
+  --react-international-phone-height: 45px;
+  --react-international-phone-border-color: #545968;
+}
+
+// .react-phone-selector{
+//     --react-international-phone-country-selector-background-color:black,
+// }
+.phone-dark-mode {
+  --react-international-phone-background-color: #293042;
+  --react-international-phone-dropdown-item-background-color: #293042;
+  --react-international-phone-text-color: white;
+  --react-international-phone-dropdown-item-text-color: black;
+  // --react-international-phone-border-color:#545968;
+  --react-international-phone-dropdown-item-background-color: white;
+  --react-international-phone-dropdown-item-background-color: white;
+  --react-international-phone-selected-dropdown-item-text-color: #3498db;
+}
+.phone-light-mode {
+  --react-international-phone-background-color: white;
+  --react-international-phone-disabled-text-color: black;
+  --react-international-phone-selected-dropdown-item-text-color: #3498db;
+}
+
+.react-international-phone-input-container.react-international-phone-country-selector-button {
+  border-radius: 0px;
+}
+
+//      border-left: 4px solid #0162ff ; }

@@ -1,0 +1,148 @@
+{
+  "VM_PRODUCT_SERVICE": {
+    "productService": "اسم المنتج",
+    "materialImpact": "التأثير المادي",
+    "classification": "تصنيف",
+    "criticality": "الحرجية",
+    "details": "التفاصيل",
+    "category": "تصنيف",
+    "purchasingBusinessUnit": "وحدة أعمال المشتريات",
+    "estimatedCost": "التكلفة التقديرية",
+    "expectedClosureDate": "تاريخ الإغلاق المتوقع",
+    "serviceStartDate": "بدء العرض",
+    "serviceEndDate": "انتهاء العرض",
+    "relationshipManager": "مدير علاقات",
+    "relationshipAssociate": "مساعد علاقة",
+    "preliminaryScore": "النتيجة الأولية",
+    "preliminaryRating": "التقييم الأولي",
+    "vendors": "البائعين",
+    "attachments": "المرفقات",
+    "QST.0.questionText": "نص السؤال",
+    "QST.0.response": "استجابه",
+    "QST.1.questionText": "نص السؤال",
+    "product_service": "المنتج/الخدمة",
+    "expected_closure_date": "تاريخ الإغلاق المتوقع",
+    "recommended_third_party": "الطرف الثالث الموصى به",
+    "estimated_cost": "التكلفة المقدرة",
+    "d_relationship_manager": "مدير العلاقات",
+    "d_purchasing_business_unit": "وحدة الأعمال للشراء",
+    "status": "الحالة",
+    "d_relationship_associate": "مساعد علاقة"
+  },
+  "VM_DUE_DILIGENCE": {
+    "dueDiligenceProcess": "عملية العناية الواجبة",
+    "triggerDate": "تاريخ الزناد",
+    "serviceProductTitle": "الخدمة / المنتج",
+    "periodicDueDiligence": "العناية الواجبة الدورية",
+    "vendors": "بائع"
+  },
+  "VM_VENDOR_TERMINATION": {
+    "vendor": "بائع",
+    "classification": "تصنيف",
+    "criticality": "الحرجية",
+    "productService": "خدمة المنتج",
+    "relationshipManager": "مدير علاقات",
+    "relationshipAssociate": "مساعد علاقة",
+    "comments": "التعليقات",
+    "VTC.0.vtcQuestion": "سؤال",
+    "VTC.0.vtcDocuments": "الوثائق"
+  },
+  "VM_PRODUCT_SERVICE_CLOSED": {
+    "product_service": "المنتج / الخدمة",
+    "material_impact": "التأثير المادي",
+    "d_criticality": "الحرجية",
+    "d_selected_vendor": "بائع",
+    "service_start_date": "بدء العرض",
+    "service_end_date": "انتهاء العرض",
+    "periodic_due_diligence": "العناية الواجبة الدورية ",
+    "d_purchasing_business_unit": "وحدة أعمال المشتريات ",
+    "d_relationship_manager": "مدير علاقات",
+    "d_relationship_associate": "مساعد علاقة",
+    "vendor_termination_status": "حالة إنهاء المورد"
+  },
+  "VM_PERIODIC_DUE_DELIGENCE": {
+    "product_service": "المنتج / الخدمة",
+    "d_selected_vendor": "بائع",
+    "periodic_due_diligence": "العناية الواجبة الدورية ",
+    "d_frequency": "تردد",
+    "d_category": "تصنيف",
+    "d_criticality": "الحرجية",
+    "d_rating": "تقييم الموقع",
+    "status": "حالة"
+  },
+  "VM_VENDOR_REGISTER": {
+    "name": "اسم المورد",
+    "d_category": "تصنيف",
+    "d_criticality": "الحرجية",
+    "d_rating": "تقييم الموقع",
+    "d_owner_orgs": "وحدة الأعمال",
+    "no_of_prod_service": "المنتج / الخدمة النشطة ",
+    "no_of_due_diligence": "# العناية الواجبة  ",
+    "action": "فعل  ",
+    "termination_status": "المنتج / الخدمة المنتهية  ",
+    "count_of_due_diligence": "#العناية الواجبة",
+    "terminated_count": "تم إنهاء المنتج/الخدمة"
+  },
+  "VM_TERMINATION_REPORT": {
+    "d_product_service": "المنتج / الخدمة",
+    "status": "حالة  ",
+    "d_classification": "تصنيف",
+    "d_vendor": "بائع"
+  },
+  "VM_REPORTED_BY_ME": {
+    "product_service": "المنتج / الخدمة",
+    "d_category": "تصنيف",
+    "d_purchasing_business_unit": "وحدة أعمال المشتريات ",
+    "d_relationship_associate": "مساعد علاقة",
+    "d_relationship_manager": "مدير علاقات",
+    "status": "حالة  "
+  },
+  "VM_PRODUCT_VENDOR_LIFE_CYCLE": {
+    "product_service": "المنتج/الخدمة",
+    "material_impact": "التأثير المادي",
+    "d_criticality": "الحرجية",
+    "d_category": "تصنيف",
+    "d_purchasing_business_unit": "وحدة أعمال المشتريات",
+    "d_selected_vendor": "المورد المختار",
+    "d_relationship_associate": "مساعد العلاقات",
+    "d_relationship_manager": "مدير العلاقات",
+    "service_start_date": "تاريخ البدء",
+    "service_end_date": "تاريخ الانتهاء",
+    "remaining_days": "الصلاحية (أيام)",
+    "periodic_due_diligence": "المستحقات الدورية الاجتهاد",
+    "vendor_termination_status": "حالة إنهاء البائع"
+  },
+  "SM_ONGOING_DUE_DILIGENCE": {
+    "d_vendors": "بائع",
+    "task_title": "عنوان",
+    "d_business_unit": "وحدة الأعمال",
+    "status": "حالة  "
+  },
+  "VM_PRODUCT_SERVICE_DETAILS": {
+    "product_service": "المنتج / الخدمة",
+    "d_criticality": "الحرجية",
+    "d_category": "تصنيف",
+    "d_purchasing_business_unit": "وحدة أعمال المشتريات",
+    "d_selected_vendor": "المورد المختار",
+    "service_start_date": "تاريخ البدء",
+    "service_end_date": "تاريخ الانتهاء",
+    "status": "حالة  "
+  },
+  "VM_TRIAGE_PRODUCT_SERVICE": {
+    "product_service": "المنتج / الخدمة",
+    "d_criticality": "الحرجية",
+    "d_category": "تصنيف",
+    "d_purchasing_business_unit": "وحدة أعمال المشتريات",
+    "d_selected_vendor": "المورد المختار",
+    "expected_closure_date": "تاريخ الإغلاق المتوقع",
+    "estimated_cost": "التكلفة التقديرية"
+  },
+  "VM_MY_PRODUCT_SERVICE_REQUESTS": {
+    "product_service": "المنتج / الخدمة",
+    "d_category": "تصنيف",
+    "d_purchasing_business_unit": "وحدة أعمال المشتريات ",
+    "d_relationship_manager": "مدير العلاقات",
+    "d_vendors": "بائع",
+    "status": "حالة"
+  }
+}

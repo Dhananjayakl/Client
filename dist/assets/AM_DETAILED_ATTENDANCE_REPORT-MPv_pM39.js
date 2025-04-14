@@ -1,0 +1,1 @@
+import{j as t,S as e}from"./main-BSlzRRNT.js";import"./chartjs-b1JVRw0D.js";import"./apexcharts-BosuxZz1.js";import"./googlemaps-Dk_mmaZe.js";import"./vectormaps-BVPPmnbV.js";let a=()=>t.jsx(e,{report:"AM_ATTENDANCE_LOGS_BY_MONTH"});export{a as default};

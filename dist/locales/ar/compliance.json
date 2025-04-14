@@ -1,0 +1,235 @@
+{
+  "CT_ON_GOING_TEST_EXE": {
+    "test_name": "اسم الاختبار",
+    "due_date": "تاريخ الاستحقاق",
+    "d_test_scope": "نطاق الاختبار",
+    "status": "حالة",
+    "d_business_unit": "وحدة الأعمال",
+    "d_tester": "اختبار",
+    "d_approver": "الموافق"
+  },
+  "CT_REPORTING_OBLIGATIONS": {
+    "deliverable": "التسليم",
+    "reportingObligation": "التزام الإبلاغ",
+    "category": "باب",
+    "d_category": "باب",
+    "complianceStatus": "حالة الامتثال",
+    "d_compliance_status": "حالة الامتثال",
+    "startDate": "تاريخ البدء",
+    "endDate": "تاريخ الانتهاء",
+    "reference": "مرجع",
+    "source": "مصدر",
+    "schedule": "جدول",
+    "d_schedule": "جدول",
+    "schStartDate": "تاريخ البدء",
+    "schDueByDays": "مستحق بالأيام",
+    "businessUnits": "وحدات الأعمال ",
+    "d_business_units": "وحدات الأعمال ",
+    "onWorkingDay": "في يوم العمل",
+    "onCalendarDay": "في يوم التقويم",
+    "dueDate": "تاريخ الاستحقاق",
+    "businessUnit": "وحدة الأعمال",
+    "owners": "المالكون",
+    "d_owners": "المالكون",
+    "responsibleBusinessUnit": "وحدة الأعمال المسؤولة",
+    "d_responsible_business_unit": "وحدة الأعمال المسؤولة",
+    "d_report_owners": "أصحاب التقارير",
+    "reportOwners": "أصحاب التقارير",
+    "d_source": "مصدر"
+  },
+  "CT_OBLIGATION_TASKS": {
+    "deliverable": "التسليم",
+    "d_source": "مصدر",
+    "d_category": "باب",
+    "sch_start_date": "بدء العرض ",
+    "due_date": " تاريخ الاستحقاق ",
+    "reference": "مرجع",
+    "status": "حالة",
+    "completiondate": "تاريخ الانتهاء ",
+    "d_submission_status": "حالة التقديم "
+  },
+  "CT_COMPLIANCE_STATUS": {
+    "control_name": "عناصر التحكم",
+    "process": "نطاق الاختبار",
+    "compliance_status": "حالة الامتثال ",
+    "design_effectiveness": "فعالية التصميم",
+    "operational_effectiveness": "الفعالية التشغيلية"
+  },
+  "CT_CANCELLED_OBLIGATION_TASKS": {
+    "deliverable": "التسليم",
+    "d_source": "مصدر",
+    "d_category": "باب",
+    "sch_start_date": "بدء العرض ",
+    "due_date": " تاريخ الاستحقاق ",
+    "status": "حالة"
+  },
+  "CT_OBLIGATIONS_FND": {
+    "fnd_name": " اسم",
+    "d_fnd_type": "يكتب",
+    "d_fnd_program": "برنامج",
+    "d_fnd_priority": "أولوية",
+    "d_fnd_severity": "خطورة",
+    "d_fnd_business_unit": "الأعمال التجارية",
+    "d_fnd_owner": "مالك"
+  },
+  "CT_EFFECTIVE_CONTROLS": {
+    "ctl_name": "عنوان التحكم",
+    "d_business_unit": "وحدة الأعمال",
+    "d_design_effectiveness": "فعالية التصميم",
+    "d_operational_effectiveness": "الفعالية التشغيلية",
+    "compliance_status": "حالة الامتثال"
+  },
+  "CT_WEAK_CONTROL": {
+    "ctl_name": "اسم التحكم",
+    "d_business_unit": "وحدة الأعمال",
+    "d_design_effectiveness": "فعالية التصميم",
+    "d_operational_effectiveness": "الفعالية التشغيلية",
+    "compliance_status": "حالة الامتثال"
+  },
+  "CT_ON_GOING_SEFT_ASSESSMENT": {
+    "test_name": "اسم الاختبار",
+    "d_business_unit": "وحدة الأعمال",
+    "due_date": "موعد الاستحقاق",
+    "status": "حالة",
+    "d_tester": "اختبار",
+    "d_approver": "الموافق"
+  },
+  "GL_PROCESS": {
+    "name": "عنوان",
+    "status": "حالة",
+    "d_hierarchy": "تَسَلسُل",
+    "d_parent": "الوالد",
+    "d_category": "التصنيف",
+    "primary_location": "الموقع الأساسي",
+    "secondary_location": "الموقع الثانوي",
+    "d_owner_orgs": "وحدة (وحدات) الأعمال",
+    "d_owners": "المالك (المالكون)"
+  },
+  "GL_ORPHAN_PROCESS": {
+    "object_id": "معرف الكائن",
+    "name": "عنوان",
+    "status": "حالة",
+    "d_hierarchy": "تَسَلسُل",
+    "d_parent": "الوالد",
+    "d_created_by": "تم الإنشاء بواسطة",
+    "d_owner_orgs": "وحدة (وحدات) الأعمال",
+    "d_owners": "المالك (المالكون)"
+  },
+  "GL_CONTROL": {
+    "name": "عنوان",
+    "status": "حالة",
+    "d_hierarchy": "تَسَلسُل",
+    "d_parent": "الوالد",
+    "d_category": "التصنيف",
+    "primary_location": "الموقع الأساسي",
+    "secondary_location": "الموقع الثانوي",
+    "d_owner_orgs": "وحدة (وحدات) الأعمال",
+    "d_owners": "المالك (المالكون)",
+    "key_control": "التحكم في المفاتيح",
+    "d_purpose": "غاية",
+    "d_types": "الأنواع",
+    "d_nature": "طبيعة",
+    "d_sources": "مصدر",
+    "d_priority": "أولوية"
+  },
+  "GL_ORPHAN_CONTROLS": {
+    "object_id": "معرف الكائن",
+    "name": "عنوان",
+    "status": "حالة",
+    "d_hierarchy": "تَسَلسُل",
+    "d_parent": "الوالد",
+    "d_category": "التصنيف",
+    "d_created_by": "تم الإنشاء بواسطة",
+    "d_owner_orgs": "وحدة (وحدات) الأعمال",
+    "d_owners": "المالك (المالكون)"
+  },
+  "CT_CONTROLS_BY_PROCESS_BU": {
+    "control_name": "عنوان",
+    "business_unit_name": "وحدة الأعمال"
+  },
+  "CT_COMPLIANCE_OVERALL_ASSESSMENTS": {
+    "test_name": "اسم الاختبار",
+    "d_test_scope": "نطاق الاختبار",
+    "due_date": "موعد الاستحقاق",
+    "status": "حالة",
+    "d_tester": "اختبار",
+    "d_approver": "الموافق",
+    "d_scope_business_unit": "وحدة الأعمال",
+    "created_on": "تم التنفيذ"
+  },
+  "CT_CONTROL_TEST_FINDINGS": {
+    "test_name": "اسم التقييم",
+    "fnd_name": "عنوان",
+    "d_fnd_type": "يكتب",
+    "d_fnd_priority": "أولوية",
+    "d_fnd_severity": "خطورة",
+    "d_fnd_business_unit": "وحدة الأعمال",
+    "d_fnd_owner": "مالك",
+    "due_date": "موعد الاستحقاق"
+  },
+  "CT_CONTROL_TEST_FINDINGS_OBS": {
+    "test_name": "اسم التقييم",
+    "fnd_name": "عنوان",
+    "d_fnd_type": "يكتب",
+    "d_fnd_priority": "أولوية",
+    "d_fnd_severity": "خطورة",
+    "d_fnd_business_unit": "وحدة الأعمال",
+    "d_fnd_owner": "مالك",
+    "fnd_due_by": "موعد الاستحقاق"
+  },
+  "CT_CONTROL_COMPLIANCE_STATUS_RPT_BY_BU": {
+    "control_name": "اسم التحكم",
+    "process": "اسم العملية",
+    "test_name": "اسم الاختبار",
+    "compliance_status": "حالة الامتثال",
+    "design_effectiveness": "فعالية التصميم",
+    "operational_effectiveness": "الفعالية التشغيلية",
+    "business_unit": "وحدة الأعمال"
+  },
+  "GL_REQUIREMENT": {
+    "name": "عنوان",
+    "key_require": "المتطلبات الرئيسية",
+    "status": "حالة",
+    "d_hierarchy": "تَسَلسُل",
+    "d_parent": "الوالد",
+    "d_type_of_complnc": "نوع الإمتثال",
+    "section_no": "رقم القسم/الاقتباس",
+    "d_categorization": "التصنيف",
+    "d_impct_and_penalt": "التأثير والعقوبات",
+    "d_owner_orgs": "وحدة (وحدات) الأعمال",
+    "d_owners": "المالك (المالكون)"
+  },
+  "GL_ORPHAN_REQUIREMENT": {
+    "name": "عنوان",
+    "status": "حالة",
+    "d_hierarchy": "تَسَلسُل",
+    "d_parent": "الوالد",
+    "d_created_by": "تم الإنشاء بواسطة",
+    "d_owner_orgs": "وحدة (وحدات) الأعمال",
+    "d_owners": "المالك (المالكون)"
+  },
+  "CT_TRIGGER_TEST": {
+    "testName": "اسم الاختبار",
+    "framework": "اطار",
+    "assessableBusinessUnit": "وحدة الأعمال",
+    "assessableEntity": "نطاق الاختبار",
+    "controls": "عناصر التحكم",
+    "frequency": "تردد",
+    "startDate": "تاريخ البدء",
+    "dueBy": "مستحق بواسطة",
+    "onWorkingDay": "في يوم العمل",
+    "onCalendarDay": "في يوم التقويم",
+    "dueDate": "تاريخ الاستحقاق",
+    "businessUnit": "وحدة الأعمال",
+    "tester": "اختبار",
+    "approver": "الموافق"
+  },
+  "RA_RISK_ACCEPTANCE": {
+    "name": "الاسم",
+    "d_business_unit": "وحدة الأعمال",
+    "start_date": "تاريخ البدء",
+    "end_date": "تاريخ الانتهاء",
+    "act_due_date": "تاريخ استحقاق الإجراءات",
+    "avg_percentage_completion": "النسبة المئوية للإنجاز"
+  }
+}

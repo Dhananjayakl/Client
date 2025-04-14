@@ -1,0 +1,173 @@
+//CuurentUserProfile Component CSS Start
+.border-thickness {
+  border-top: 2px solid #585454;
+  margin: 10px 0px;
+}
+.profile-border {
+  border-right: 1px solid rgb(208, 204, 204);
+}
+//CuurentUserProfile Component CSS END
+
+.splitterStyle {
+  height: 100;
+}
+.for-profile {
+  // margin-top: 78px;
+  margin-left: 40px;
+  border: 5px solid #eef1f3;
+}
+.usernameflex {
+  // margin-top: 10%;
+  margin-bottom: 5%;
+  position: sticky;
+  color: black;
+}
+
+/* Popup style */
+.popup-box {
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.box {
+  position: relative;
+  width: 60%; /* Use percentage for width */
+  margin: 0 auto;
+  height: auto;
+  max-height: 80vh;
+  margin-top: 10vh; /* Use percentage for margin-top */
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+}
+
+@media (min-width: 768px) {
+  /* Adjust styles for larger screens if needed */
+  .box {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Adjust styles for even larger screens if needed */
+  .box {
+    width: 50%;
+  }
+}
+
+.close-icon {
+  content: "x";
+  cursor: pointer;
+  position: absolute;
+  // right: calc(12% - 30px);
+  // top: calc(100vh - 85vh - 33px);
+  right: 10%;
+  // top: auto;
+  // background: #ededed;
+  width: 41px;
+  height: 35px;
+  // border-radius: 50%;
+  // line-height: 32px;
+  // text-align: center;
+  // border: 1px solid #999;
+  font-size: 38px;
+}
+.popname {
+  font-size: 30px;
+  color: black;
+}
+.contact-head {
+  // padding-left: 50px;
+  margin-top: 20px;
+  display: flex;
+  //align-items: center;
+  // gap: 10px;
+}
+.contact-body {
+  // margin-left: 100px;
+  font-size: medium;
+}
+.contact-title {
+  padding-left: 12px;
+}
+
+.round-button {
+  background-color: white;
+  color: #0a5aeb;
+  border-radius: 11px; /* This makes the button round */
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+}
+.icon-color {
+  color: #051f6a;
+}
+
+.modal-bottom {
+  position: fixed;
+  bottom: 30%;
+  left: 19%;
+  width: 100%;
+  margin: 20;
+}
+
+.modal-content-bottom {
+  border-radius: 0;
+}
+.icons span {
+  background: #fff;
+  border-radius: 100%;
+}
+
+.icons .toolTip {
+  background: #f0eded;
+  padding: 10px 18px;
+  border-radius: 25px;
+  box-shadow: "rgb(197 201 200 / 92%) 0px 0px 0.875rem 0px";
+  position: relative;
+  top: -10px;
+  opacity: 0;
+  pointer-events: none;
+  width: auto;
+  transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+  cursor: pointer;
+}
+.icons .toolTip:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  background: #f0eded;
+  bottom: -8px;
+  left: 10%;
+  transform: translateX(-50%) rotate(45deg);
+  box-shadow: "rgb(197 201 200 / 92%) 0px 0px 0.875rem 0px";
+  cursor: pointer;
+}
+
+.icons:hover .toolTip {
+  opacity: 5;
+  pointer-events: all;
+  // cursor: pointer;
+}
+
+//new
+
+.fixed-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+}
+
+.scrollable-content {
+  max-height: 280px;
+  overflow-y: auto;
+}

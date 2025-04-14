@@ -1,0 +1,116 @@
+.react-tree-modal .dropdown-trigger {
+  display: inline-block;
+  width: 100%; /* Ensure full width */
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.625;
+  color: #333;
+  appearance: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 2px solid #d1d1d1 !important;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+  padding: 0.5rem 0.9rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.react-tree-modal .dropdown {
+  min-width: 100%;
+}
+.react-tree-modal .dropdown-trigger:hover {
+  border-color: #007bff !important;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+}
+
+/* Dropdown Content Box */
+.react-tree-modal .dropdown-content {
+  position: relative !important;
+  width: 100% !important; /* Ensures full width */
+  border: 2px solid #ccc !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background: #fff;
+  border-radius: 6px;
+  padding: 10px;
+  white-space: normal; /* Prevents content from expanding */
+  // overflow-wrap: break-word; /* Wraps long words if necessary */
+}
+/* Nodes (Tree Items) */
+.react-tree-modal .node-label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.625;
+  color: #333;
+  padding: 8px 12px;
+  border: 1px solid transparent;
+  transition: all 0.2s ease-in-out;
+  border-radius: 4px;
+}
+
+.react-tree-modal .node-label:hover {
+  color: #007bff;
+  background-color: #f0f8ff;
+  border: 1px solid #007bff;
+  cursor: pointer;
+}
+
+/* Checkbox Styling */
+.react-tree-modal .checkbox-item {
+  position: relative;
+  width: 1rem;
+  height: 1rem;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 2px solid #8d8d8d;
+  border-radius: 4px;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.react-tree-modal .checkbox-item:checked {
+  background-color: #2196f3;
+  border-color: #2196f3;
+}
+
+.react-tree-modal .checkbox-item:checked:after {
+  content: "✔";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.75rem;
+  color: #fff;
+}
+
+/* Focused Node */
+.react-tree-modal .node.focused {
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px;
+  transition: background 0.2s ease-in-out;
+}
+
+/* Dropdown Arrow */
+.react-tree-modal .dropdown-trigger.arrow.top::after,
+.react-tree-modal .dropdown-trigger.arrow.top::before {
+  content: "" !important;
+}
+
+/* Search Box */
+.react-tree-modal .search {
+  border-bottom: none !important;
+  padding: 0.5rem;
+  font-size: 0.875rem;
+  border-radius: 6px;
+  background: #f8f9fa;
+  border: 2px solid #ccc;
+}
+
+.react-tree-modal .search:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  border-color: #007bff !important;
+}

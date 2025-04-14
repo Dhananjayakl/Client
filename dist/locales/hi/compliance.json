@@ -1,0 +1,262 @@
+{
+  "CT_ON_GOING_TEST_EXE": {
+    "test_name": "परीक्षण का नाम",
+    "due_date": "नियत तारीख",
+    "d_test_scope": "परीक्षण का दायरा",
+    "status": "स्थिति",
+    "d_business_unit": "व्यवसाय इकाई",
+    "d_tester": "परीक्षक",
+    "d_approver": "अनुमोदक"
+  },
+  "CT_REPORTING_OBLIGATIONS": {
+    "deliverable": "डिलीवर करने योग्य",
+    "reportingObligation": "रिपोर्टिंग दायित्व",
+    "category": "श्रेणी",
+    "d_category": "श्रेणी",
+    "complianceStatus": "अनुपालन स्थिति",
+    "d_compliance_status": "अनुपालन स्थिति",
+    "start": "प्रारंभ",
+    "end": "समाप्ति",
+    "reference": "संदर्भ",
+    "source": "स्रोत",
+    "frequency": "आवृत्ति",
+    "schedule": "अनुसूची",
+    "d_schedule": "अनुसूची",
+    "schStartDate": "प्रारंभ तिथि",
+    "schDueByDays": "दिनों में देय",
+    "businessUnits": "व्यवसाय इकाइयाँ",
+    "d_business_units": "व्यवसाय इकाइयाँ",
+    "onWorkingDay": "कार्य दिवस पर",
+    "onCalendarDay": "कैलेंडर दिवस पर",
+    "dueDate": "नियत तारीख",
+    "businessUnit": "व्यवसाय इकाई",
+    "owners": "मालिक",
+    "d_owners": "मालिक",
+    "responsibleBusinessUnit": "उत्तरदायी व्यवसाय इकाई",
+    "d_responsible_business_unit": "उत्तरदायी व्यवसाय इकाई",
+    "d_report_owners": "रिपोर्ट मालिक",
+    "reportOwners": "रिपोर्ट मालिक",
+    "d_source": "स्रोत",
+    "attachment": "संलग्नक"
+  },
+  "CT_COMPLIANCE_STATUS": {
+    "control_name": "नियंत्रण का नाम",
+    "process": "प्रक्रिया",
+    "compliance_status": "अनुपालन स्थिति",
+    "design_effectiveness": "डिजाइन प्रभावशीलता",
+    "operational_effectiveness": "संचालन प्रभावशीलता",
+    "updated_on": "अपडेट किया गया"
+  },
+  "CT_OBLIGATION_TASKS": {
+    "deliverable": "डिलीवर करने योग्य",
+    "d_source": "स्रोत",
+    "d_category": "श्रेणी",
+    "sch_start_date": "प्रारंभ तिथि",
+    "due_date": "नियत तारीख",
+    "reference": "संदर्भ",
+    "status": "स्थिति",
+    "completiondate": "समाप्ति तिथि",
+    "d_submission_status": "प्रस्तुत करने की स्थिति"
+  },
+
+  "CT_CANCELLED_OBLIGATION_TASKS": {
+    "deliverable": "डिलीवर करने योग्य",
+    "d_source": "स्रोत",
+    "d_category": "श्रेणी",
+    "sch_start_date": "प्रारंभ तिथि",
+    "due_date": "नियत तारीख",
+    "status": "स्थिति"
+  },
+  "CT_OBLIGATIONS_FND": {
+    "fnd_name": "नाम",
+    "d_fnd_type": "प्रकार",
+    "d_fnd_program": "कार्यक्रम",
+    "d_fnd_priority": "प्राथमिकता",
+    "d_fnd_severity": "गंभीरता",
+    "d_fnd_business_unit": "व्यवसाय इकाई",
+    "d_fnd_owner": "मालिक"
+  },
+  "CT_EFFECTIVE_CONTROLS": {
+    "ctl_name": "नियंत्रण का नाम",
+    "d_business_unit": "व्यवसाय इकाई",
+    "d_design_effectiveness": "डिजाइन प्रभावशीलता",
+    "d_operational_effectiveness": "संचालन प्रभावशीलता",
+    "compliance_status": "अनुपालन स्थिति"
+  },
+  "CT_WEAK_CONTROL": {
+    "ctl_name": "नियंत्रण का नाम",
+    "d_business_unit": "व्यवसाय इकाई",
+    "d_design_effectiveness": "डिजाइन प्रभावशीलता",
+    "d_operational_effectiveness": "संचालन प्रभावशीलता",
+    "compliance_status": "अनुपालन स्थिति"
+  },
+  "CT_ON_GOING_SEFT_ASSESSMENT": {
+    "test_name": "परीक्षण का नाम",
+    "d_business_unit": "व्यवसाय इकाई",
+    "due_date": "नियत तारीख",
+    "status": "स्थिति",
+    "d_tester": "परीक्षक",
+    "d_approver": "अनुमोदक"
+  },
+  "GL_PROCESS": {
+    "name": "नाम",
+    "status": "स्थिति",
+    "d_hierarchy": "पदानुक्रम",
+    "d_parent": "मूल",
+    "d_category": "श्रेणी",
+    "primary_location": "प्राथमिक स्थान",
+    "secondary_location": "द्वितीयक स्थान",
+    "d_owner_orgs": "व्यवसाय इकाइयाँ",
+    "d_owners": "मालिक"
+  },
+  "GL_ORPHAN_PROCESS": {
+    "object_id": "वस्तु आईडी",
+    "name": "नाम",
+    "status": "स्थिति",
+    "d_hierarchy": "पदानुक्रम",
+    "d_parent": "मूल",
+    "d_created_by": "द्वारा निर्मित",
+    "d_owner_orgs": "व्यवसाय इकाइयाँ",
+    "d_owners": "मालिक"
+  },
+  "GL_CONTROL": {
+    "name": "नाम",
+    "status": "स्थिति",
+    "d_hierarchy": "पदानुक्रम",
+    "d_parent": "मूल",
+    "d_category": "श्रेणी",
+    "primary_location": "प्राथमिक स्थान",
+    "secondary_location": "द्वितीयक स्थान",
+    "d_owner_orgs": "व्यवसाय इकाइयाँ",
+    "d_owners": "मालिक",
+    "key_control": "मुख्य नियंत्रण",
+    "d_purpose": "उद्देश्य",
+    "d_types": "प्रकार",
+    "d_nature": "प्रकृति",
+    "d_sources": "स्रोत",
+    "d_priority": "प्राथमिकता"
+  },
+  "GL_ORPHAN_CONTROLS": {
+    "object_id": "वस्तु आईडी",
+    "name": "नाम",
+    "status": "स्थिति",
+    "d_hierarchy": "पदानुक्रम",
+    "d_parent": "मूल",
+    "d_category": "श्रेणी",
+    "d_created_by": "द्वारा निर्मित",
+    "d_owner_orgs": "व्यवसाय इकाइयाँ",
+    "d_owners": "मालिक"
+  },
+  "CT_CONTROLS_BY_PROCESS_BU": {
+    "control_name": "नियंत्रण का नाम",
+    "business_unit_name": "व्यवसाय इकाई का नाम"
+  },
+  "CT_COMPLIANCE_OVERALL_ASSESSMENTS": {
+    "test_name": "परीक्षण का नाम",
+    "d_test_scope": "परीक्षण का दायरा",
+    "due_date": "नियत तारीख",
+    "status": "स्थिति",
+    "d_tester": "परीक्षक",
+    "d_approver": "अनुमोदक",
+    "d_scope_business_unit": "व्यवसाय इकाई",
+    "created_on": "निर्मित"
+  },
+  "CT_CONTROL_TEST_FINDINGS": {
+    "test_name": "परीक्षण का नाम",
+    "fnd_name": "नाम",
+    "d_fnd_type": "प्रकार",
+    "d_fnd_priority": "प्राथमिकता",
+    "d_fnd_severity": "गंभीरता",
+    "d_fnd_business_unit": "व्यवसाय इकाई",
+    "d_fnd_owner": "मालिक",
+    "due_date": "नियत तारीख"
+  },
+  "CT_CONTROL_TEST_FINDINGS_OBS": {
+    "test_name": "परीक्षण का नाम",
+    "fnd_name": "नाम",
+    "d_fnd_type": "प्रकार",
+    "d_fnd_priority": "प्राथमिकता",
+    "d_fnd_severity": "गंभीरता",
+    "d_fnd_business_unit": "व्यवसाय इकाई",
+    "d_fnd_owner": "मालिक",
+    "fnd_due_by": "नियत तारीख",
+    "ctl_name": "नियंत्रण"
+  },
+  "CT_CONTROL_COMPLIANCE_STATUS_RPT_BY_BU": {
+    "control_name": "नियंत्रण का नाम",
+    "process": "प्रक्रिया",
+    "test_name": "परीक्षण का नाम",
+    "compliance_status": "अनुपालन स्थिति",
+    "design_effectiveness": "डिजाइन प्रभावशीलता",
+    "operational_effectiveness": "संचालन प्रभावशीलता",
+    "business_unit": "व्यवसाय इकाई"
+  },
+  "GL_REQUIREMENT": {
+    "name": "नाम",
+    "key_require": "मुख्य आवश्यकताएँ",
+    "status": "स्थिति",
+    "d_hierarchy": "पदानुक्रम",
+    "d_parent": "मूल",
+    "d_type_of_complnc": "अनुपालन का प्रकार",
+    "section_no": "अनुभाग संख्या",
+    "d_categorization": "वर्गीकरण",
+    "d_impct_and_penalt": "प्रभाव और दंड",
+    "d_owner_orgs": "व्यवसाय इकाइयाँ",
+    "d_owners": "मालिक"
+  },
+  "GL_ORPHAN_REQUIREMENT": {
+    "name": "नाम",
+    "status": "स्थिति",
+    "d_hierarchy": "पदानुक्रम",
+    "d_parent": "मूल",
+    "d_created_by": "द्वारा निर्मित",
+    "d_owner_orgs": "व्यवसाय इकाइयाँ",
+    "d_owners": "मालिक"
+  },
+  "CT_TRIGGER_TEST": {
+    "testName": "परीक्षण का नाम",
+    "framework": "ढांचा",
+    "assessableBusinessUnit": "मूल्यांकन योग्य व्यवसाय इकाई",
+    "assessableEntity": "मूल्यांकन योग्य इकाई",
+    "controls": "नियंत्रण",
+    "frequency": "आवृत्ति",
+    "startDate": "प्रारंभ तिथि",
+    "dueBy": "नियत तिथि",
+    "onWorkingDay": "कार्य दिवस पर",
+    "onCalendarDay": "कैलेंडर दिवस पर",
+    "dueDate": "नियत तारीख",
+    "businessUnit": "व्यवसाय इकाई",
+    "tester": "परीक्षक",
+    "approver": "अनुमोदक"
+  },
+  "RA_RISK_ACCEPTANCE": {
+    "name": "नाम",
+    "d_business_unit": "व्यवसाय इकाई",
+    "start_date": "प्रारंभ तिथि",
+    "end_date": "समाप्ति तिथि",
+    "act_due_date": "कार्रवाई की नियत तिथि",
+    "avg_percentage_completion": "औसत पूर्णता प्रतिशत"
+  },
+  "CT_CONTROL_HEAT_MAP_STATUS": {
+    "control_name": "नियंत्रण",
+    "process": "परीक्षण का दायरा",
+    "compliance_status": "अनुपालन स्थिति",
+    "d_operational_effective": "डिज़ाइन प्रभावशीलता",
+    "Operational Effectiveness": "संचालन प्रभावशीलता"
+  },
+  "CT_CONTROL_COMPLIANCE_STATUS": {
+    "control_name": " नियंत्रण का नाम",
+    "test_name": "परीक्षण का नाम",
+    "process": "प्रक्रिया का नाम",
+    "business_unit": "व्यवसाय इकाई",
+    "compliance_status": "अनुपालन स्थिति",
+    "design_effectiveness": "डिज़ाइन प्रभावशीलता",
+    "operational_effectivenesss": "संचालन प्रभावशीलता"
+  },
+  "CT_COMPLIANCE_STATUS_KEY_CONTROL_RPT": {
+    "control_name": " नियंत्रण का नाम",
+    "test_name": "परीक्षण का नाम",
+    "business_unit": "व्यवसाय इकाई",
+    "compliance_status": "अनुपालन स्थिति"
+  }
+}

@@ -1,0 +1,74 @@
+.menu-wrapper {
+  --__reactRadialMenu__menu-bgColor: #293042;
+  --__reactRadialMenu__separator-color: rgba(0, 0, 0, 0.2);
+  --__reactRadialMenu__item-color: #fff;
+  --__reactRadialMenu__activeItem-color: #fff;
+  --__reactRadialMenu__activeItem-bgColor: #3498db;
+  --__reactRadialMenu__arrow-color: #6f6e77;
+  --__reactRadialMenu__activeArrow-color: #ffffff;
+}
+
+.custom-wrapper {
+  --__reactRadialMenu__menu-bgColor: #fff;
+}
+
+.monkmenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.menu {
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    width: 50%;
+    height: auto;
+  }
+}
+
+@media (min-width: 769px) {
+  .menu {
+    width: 50%;
+    height: auto;
+  }
+}
+
+@media (min-width: 650px) {
+  .monkmenu {
+    width: 70vh;
+    height: 70vh;
+  }
+}
+@media (min-width: 250px) {
+  .monkmenu {
+    width: 20vh;
+    height: 20vh;
+  }
+}
+@media (min-width: 300px) and (max-width: 500px) {
+  .monkmenu {
+    width: 50vh;
+    height: 50vh;
+  }
+  .menu {
+    width: 30vh;
+    height: 30vh;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 5000px) {
+  .monkmenu {
+    width: 70vh;
+    height: 70vh;
+  }
+}

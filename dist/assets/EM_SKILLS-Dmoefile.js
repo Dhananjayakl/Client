@@ -1,0 +1,1 @@
+import{j as r,R as t,S as e}from"./main-BSlzRRNT.js";import"./chartjs-b1JVRw0D.js";import"./apexcharts-BosuxZz1.js";import"./googlemaps-Dk_mmaZe.js";import"./vectormaps-BVPPmnbV.js";let a=()=>r.jsx(r.Fragment,{children:r.jsx(t,{children:r.jsx(e,{report:"EM_SKILLS_DETAILS"})})});export{a as default};

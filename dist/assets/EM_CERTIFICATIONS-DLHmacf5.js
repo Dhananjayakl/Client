@@ -1,0 +1,1 @@
+import{j as r,S as t}from"./main-BSlzRRNT.js";import"./chartjs-b1JVRw0D.js";import"./apexcharts-BosuxZz1.js";import"./googlemaps-Dk_mmaZe.js";import"./vectormaps-BVPPmnbV.js";let a=()=>r.jsx(r.Fragment,{children:r.jsx(t,{report:"EM_CERTIFICATIONS"})});export{a as default};

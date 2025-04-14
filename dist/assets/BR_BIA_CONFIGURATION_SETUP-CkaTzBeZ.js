@@ -1,0 +1,1 @@
+import{j as r,R as i,k as o}from"./main-BSlzRRNT.js";import"./chartjs-b1JVRw0D.js";import"./apexcharts-BosuxZz1.js";import"./googlemaps-Dk_mmaZe.js";import"./vectormaps-BVPPmnbV.js";const a=()=>r.jsx(r.Fragment,{children:r.jsx(i,{children:r.jsx("div",{className:"ms-auto  mb-4 me-0",children:r.jsx(o,{formService:"biaconfigurationsetup",objectId:1})})})});export{a as default};

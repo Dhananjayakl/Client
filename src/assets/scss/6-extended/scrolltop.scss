@@ -1,0 +1,32 @@
+.link {
+  text-decoration: none;
+  display: inline;
+  padding: 20px 20px;
+  font-weight: 700;
+  font-size: large;
+  cursor: pointer;
+}
+
+/* scroll to top button */
+.top-btn-position {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+}
+
+.top-btn-style {
+  height: 30px;
+  width: 30px;
+  border-radius: 60%;
+  border: 4px solid #fa8128;
+  background-color: #fa8128;
+  color: #333;
+  cursor: pointer;
+}
+
+.top-btn-style:hover {
+  animation: none;
+  background-color: #fa8128;
+  color: #fff;
+  border: 5px solid #fa8128;
+}

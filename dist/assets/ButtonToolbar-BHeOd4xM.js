@@ -1,0 +1,1 @@
+import{a5 as p,j as f,a6 as l}from"./main-BSlzRRNT.js";import{r as n}from"./chartjs-b1JVRw0D.js";const i={role:"toolbar"},o=n.forwardRef(({bsPrefix:r,className:t,...a},s)=>{const e=p(r,"btn-toolbar");return f.jsx("div",{...a,ref:s,className:l(t,e)})});o.displayName="ButtonToolbar";o.defaultProps=i;export{o as B};

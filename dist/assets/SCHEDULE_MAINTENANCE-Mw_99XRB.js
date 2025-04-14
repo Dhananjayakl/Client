@@ -1,0 +1,1 @@
+import{j as r,R as t,S as e}from"./main-BSlzRRNT.js";import"./chartjs-b1JVRw0D.js";import"./Chart-v7nU5vCU.js";import"./googlemaps-Dk_mmaZe.js";import"./apexcharts-BosuxZz1.js";import"./vectormaps-BVPPmnbV.js";import"./index.esm-D178kCZL.js";let l=()=>r.jsx(r.Fragment,{children:r.jsx(t,{children:r.jsx(e,{report:"SCHEDULE_MAINTENANCE"})})});export{l as default};

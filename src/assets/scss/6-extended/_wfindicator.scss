@@ -1,0 +1,124 @@
+// Form Progress Bar.
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.2rem;
+  position: relative;
+}
+
+.step-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: $gray-700;
+  transition: 0.4s;
+  color: $gray-200;
+}
+
+.done {
+  background-color: $green;
+  color: #000;
+}
+
+.current {
+  background-color: $indigo;
+  color: #fff;
+}
+
+.NA {
+  background-color: $gray-500;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+.step-item {
+  z-index: 10;
+  text-align: center;
+}
+
+#progress {
+  //   -webkit-appearance:none;
+  position: absolute;
+  width: 95%;
+  z-index: 5;
+  height: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
+/* to customize progress bar */
+#progress::-webkit-progress-value {
+  background-color: $gray-500;
+  transition: 0.5s ease;
+}
+
+#progress::-webkit-progress-bar {
+  background-color: $gray-500;
+}
+
+.NA-striketitle {
+  text-decoration: line-through;
+}
+// style={{ listStyleType: 'square' }}
+.responsibilities {
+  list-style: square;
+}
+// SUHAS G
+@media screen and (max-width: 767px) {
+  .step-title {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 458px) and (max-width: 768px) {
+  #progress {
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 458px) {
+  .steps,
+  .step-button,
+  #progress {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #progress {
+    margin-left: 17px;
+  }
+}
+@media screen and (min-width: 776px) and (max-width: 1100px) {
+  #progress {
+    margin-left: 5px;
+  }
+}
+
+@media screen and (min-width: 923px) and (max-width: 1100px) {
+  .step-title {
+    font-size: 10px;
+  }
+  #progress {
+    margin-left: 20px;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 922px) {
+  .step-title {
+    font-size: 7px;
+  }
+}
+
+.custom-popover {
+  max-width: 300px;
+  max-height: 500px;
+}
+.pophover-title {
+  padding: 0px;
+  padding-left: 10px;
+  margin-top: 1px;
+}

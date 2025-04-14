@@ -1,0 +1,40 @@
+{
+  "SM_QUESTIONNAIRE_REPORT": {
+    "task_title": "उपाधि",
+    "questionnaire": "प्रश्नावली का नाम",
+    "d_program": "प्रोग्राम",
+    "d_category": "कोटि",
+    "d_business_unit": "व्यापार इकाई",
+    "scoring": "स्कोरिंग सक्षम करें"
+  },
+  "SM_APPROVER_REPORTS": {
+    "task_title": "उपाधि",
+    "questionnaire_name": "प्रश्नावली का नाम",
+    "d_program": "प्रोग्राम",
+    "status": "ओहदा",
+    "d_business_unit": "व्यापार इकाई",
+    "scoring": "स्कोरिंग सक्षम करें"
+  },
+  "SM_REJECTED_SURVEYS": {
+    "task_title": "उपाधि",
+    "questionnaire_name": "प्रश्नावली का नाम",
+    "d_category": "कोटि",
+    "d_program": "प्रोग्राम",
+    "d_business_unit": "व्यापार इकाई"
+  },
+  "SM_RESPONSE_REPORT": {
+    "task_title": "उपाधि",
+    "questionnaire_name": "प्रश्नावली का नाम",
+    "status": "ओहदा",
+    "d_program": "प्रोग्राम",
+    "d_business_unit": "व्यापार इकाई"
+  },
+  "SM_SURVEY_STATUS": {
+    "task_title": "उपाधि",
+    "questionnaire_name": "प्रश्नावली का नाम",
+    "status": "ओहदा",
+    "d_program": "प्रोग्राम",
+    "d_business_unit": "व्यापार इकाई",
+    "object_id": "परिचय"
+  }
+}

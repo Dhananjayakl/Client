@@ -1,0 +1,303 @@
+.columnSelection {
+  width: 190px;
+}
+
+//ProgressBar In Report Column
+.column-progress {
+  height: 5px;
+  width: 100px;
+}
+
+// //Tail View of report
+
+// .card-container {
+//     overflow-x: auto;
+
+// }
+
+// .cell {
+//     // white-space: nowrap;
+//     vertical-align: top;
+// }
+
+// .custom-card {
+//     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+//     width: fit-content;
+// }
+
+// .bold-header {
+//     font-weight: bold;
+//     font-size: larger;
+// }
+
+// .flex-header {
+//     display: flex;
+// }
+
+// .header-cell-width {
+//     width: 300px;
+//     overflow: hidden;
+//     text-overflow: ellipsis;
+//     white-space: initial;
+// }
+
+// #tailViewTooltip {
+//     margin-top: 5px;
+
+// }
+// .center-message {
+//     text-align: center;
+//     font-size: 20px;
+//     margin-top: 20px;
+//     color: red;
+//   }
+
+// sticky column
+.table-container {
+  // position: relative;
+  overflow-x: auto;
+  // z-index: 0;
+}
+
+.table-sticky {
+  // border-top: 1px solid $primary;
+  .dropdown-toggle::after {
+    display: none !important;
+  }
+  .sticky-column-header {
+    background-color: $primary;
+    z-index: 1 !important;
+  }
+  .sticky-column-data {
+    background-color: $gray-100;
+    // background-color: #ffffff;
+
+    z-index: 1 !important;
+  }
+  //   .sticky-column-header,
+  //   .sticky-column-data {
+  //   }
+  // [data-sticky-last-left-td] {
+  //   box-shadow: 2px 0px 1px #ccc;
+  // }
+}
+
+// //Filters
+// .no-filters-message {
+//   text-align: center;
+//   color: red;
+// }
+
+.action-buttons {
+  justify-content: space-between;
+  z-index: 2 !important;
+}
+
+.action-input {
+  width: 65px;
+  height: 33px;
+}
+.cell-HeightActionCol {
+  height: 56.92px;
+}
+
+@media (min-width: 768px) and (max-width: 1162px) {
+  .action-buttons {
+    justify-content: center;
+    z-index: 2 !important;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 892px) {
+  .action-page span,
+  .action-page a {
+    font-size: 12px;
+    padding: 1px;
+    width: 35px;
+  }
+  .action-input {
+    width: 60px;
+    height: 23px;
+  }
+}
+
+@media (min-width: 1163px) and (max-width: 1242px) {
+  .action-buttons {
+    justify-content: center;
+    z-index: 2 !important;
+  }
+}
+
+//optional Bottom panel
+@media (min-width: 825px) {
+  .optional-bottom {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .optional-col1 {
+    justify-content: start;
+  }
+  .optional-col2 {
+    justify-content: end;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 824px) {
+  .optional-bottom {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .optional-col1,
+  .optional-col2 {
+    width: 100%;
+    // box-sizing: border-box;
+  }
+  .optional-col1,
+  .optional-col2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .optional-bottom {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .optional-col1 {
+    justify-content: start;
+  }
+  .optional-col2 {
+    justify-content: end;
+  }
+}
+
+.filter-button {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.title-filter-button {
+  width: 150px;
+}
+.active-excercise {
+  text-align: right;
+}
+.active-review {
+  text-align: center;
+}
+
+.cardDesign {
+  border-radius: 15px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+.buttonSize {
+  width: 100px;
+}
+
+.reportChart-cards {
+  box-shadow: 0px 0px 6px;
+}
+
+.Color-column {
+  margin-top: 20px;
+}
+
+.stickyTopHeader {
+  position: sticky;
+  top: 62px;
+  z-index: 100;
+}
+
+.stickyelement {
+  position: sticky;
+  top: 0; /* or bottom, left, right depending on where you want it to stick */
+  z-index: 1000; /* Ensure it stays on top of other content */
+  background-color: white; /* Typically, you might want a background to avoid content overlap */
+  padding: 10px;
+}
+
+.lightTheme {
+  background-color: rgb(249, 249, 249);
+}
+
+////V 8 update css
+
+// .table-container {
+//   border: 1px solid lightgray;
+//   overflow-x: scroll;
+//   width: 100%;
+//   max-width: 960px;
+//   position: relative;
+// }
+
+// table {
+//   /* box-shadow and borders will not work with positon: sticky otherwise */
+//   border-collapse: separate !important;
+//   border-spacing: 0;
+// }
+
+// th {
+//   background-color: lightgray;
+//   border-bottom: 1px solid lightgray;
+//   font-weight: bold;
+//   height: 30px;
+//   padding: 2px 4px;
+//   position: relative;
+//   text-align: center;
+// }
+
+// td {
+//   background-color: white;
+//   padding: 2px 4px;
+// }
+
+tr.strikeout td:before {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  border-bottom: 1px solid #111;
+  width: 100%;
+}
+
+.removeToggle {
+  // border-top: 1px solid $primary;
+  .dropdown-toggle::after {
+    display: none !important;
+  }
+}
+
+// Data Card Shimmers Start
+.shimmer {
+  background: linear-gradient(90deg, #e0e0e0 25%, #f2f2f2 50%, #e0e0e0 75%);
+  background-size: 200% 100%;
+  animation: shimmer-animation 1.5s infinite;
+}
+
+@keyframes shimmer-animation {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.shimmer-card-header,
+.shimmer-card-body {
+  height: 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+}
+
+.shimmer-card-body {
+  height: 50px;
+}
+// Data Card Shimmers Ends

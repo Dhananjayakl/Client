@@ -1,0 +1,11 @@
+{
+  "BR_MY_BIA_RPT": {
+    "object_name": "नाम",
+    "d_business_unit": "व्यावसायिक इकाई",
+    "status": "स्थिति",
+    "d_process_name": "प्रक्रिया का नाम",
+    "d_asset_name": "संपत्ति का नाम",
+    "version": "संस्करण",
+    "pdf": "पीडीएफ डाउनलोड करें"
+  }
+}
