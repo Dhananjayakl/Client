@@ -13,7 +13,7 @@ export default defineConfig({
       src: resolve("src/"),
       react: "react/umd/react.production.min.js",
     },
-  },
+  }, 
   plugins: [
     react(),
     svgrPlugin(),
@@ -23,9 +23,9 @@ export default defineConfig({
     }),
     splitVendorChunkPlugin(),
   ],
-  bulid: {
+  buliad: {
     cssCodeSplit: true,
-    chunkSizeWarningLimit: 100000,
+    chunkSizeWarningLimit: 110000,
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
@@ -42,6 +42,7 @@ export default defineConfig({
             "jsvectormap",
             "src/vendor/us_aea_en.js",
             "src/vendor/world.js",
+            ""   
           ],
           fullcalendar: [
             "@fullcalendar/bootstrap",
