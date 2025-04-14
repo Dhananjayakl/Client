@@ -3,9 +3,8 @@ import react from "@vitejs/plugin-react";
 import svgrPlugin from "vite-plugin-svgr";
 import { ViteEjsPlugin } from "vite-plugin-ejs";
 import { nodePolyfills } from "vite-plugin-node-polyfills";
-#$Helloooo????
 import { resolve } from "path";
-
+IMPORT test from test,
 export default defineConfig({
   resolve: {
     alias: {
