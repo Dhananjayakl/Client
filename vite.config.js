@@ -41,8 +41,7 @@ export default defineConfig({
           vectormaps: [
             "jsvectormap",
             "src/vendor/us_aea_en.js",
-            "src/vendor/world.js",
-            ""   
+            "src/vendor/world.js",   
           ],
           fullcalendar: [
             "@fullcalendar/bootstrap",
