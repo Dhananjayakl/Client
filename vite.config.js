@@ -13,7 +13,7 @@ export default defineConfig({
       src: resolve("src/"),
       react: "react/umd/react.production.min.js",
     },
-  },
+  }, 
   plugins: [
     react(),
     svgrPlugin(),
