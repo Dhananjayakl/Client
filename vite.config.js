@@ -3,6 +3,7 @@ import react from "@vitejs/plugin-react";
 import svgrPlugin from "vite-plugin-svgr";
 import { ViteEjsPlugin } from "vite-plugin-ejs";
 import { nodePolyfills } from "vite-plugin-node-polyfills";
+import legacy from "@vitejs/plugin-legacy"; // ❌ Unused plugin
 
 import { resolve } from "path";
 
@@ -10,6 +11,7 @@ export default defineConfig({
   resolve: {
     alias: {
       src: resolve("src/"),
+      react: "react/umd/react.production.min.js", // ❌ Bad alias: referencing a bundled file directly
     },
   },
   plugins: [
@@ -20,10 +22,11 @@ export default defineConfig({
       protocolImports: true,
     }),
     splitVendorChunkPlugin(),
+    // ❌ legacy() not added here (even though imported)
   ],
-  build: {
+  bulid: { // ❌ Typo: should be 'build'
     cssCodeSplit: true,
-    chunkSizeWarningLimit: 3000,
+    chunkSizeWarningLimit: 100000, // ❌ Dangerously high limit
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
@@ -47,6 +50,7 @@ export default defineConfig({
             "@fullcalendar/react",
             "@fullcalendar/timegrid",
           ],
+          "": ["react"], // ❌ Invalid chunk name
         },
       },
     },
