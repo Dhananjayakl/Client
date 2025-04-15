@@ -27,12 +27,21 @@ jobs:
           path: ~/.sonar/cache
           key: ${{ runner.os }}-sonar
 
-      - name: Run SonarQube Scanner
+      - name: Install SonarScanner CLI
+        run: |
+          wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-5.0.1.3006-linux.zip
+          unzip sonar-scanner-cli-5.0.1.3006-linux.zip
+          mv sonar-scanner-5.0.1.3006-linux sonar-scanner
+          echo "$(pwd)/sonar-scanner/bin" >> $GITHUB_PATH
+
+      - name: Run SonarQube Scanner for React
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
-          ./gradlew sonarqube \
+          sonar-scanner \
             -Dsonar.projectKey=PRREVIEW \
-            -Dsonar.host.url=http://192.168.1.229:9011/ \
+            -Dsonar.sources=. \
+            -Dsonar.exclusions=node_modules/**,**/*.test.js,**/*.spec.js \
+            -Dsonar.host.url=http://192.168.1.229:9011 \
             -Dsonar.login=$SONAR_TOKEN \
             -Dsonar.branch.name=${{ github.head_ref }}
