@@ -44,4 +44,3 @@ jobs:
             -Dsonar.exclusions=node_modules/**,**/*.test.js,**/*.spec.js \
             -Dsonar.host.url=http://106.51.77.93:7000/ \
             -Dsonar.login=$SONAR_TOKEN \
-            -Dsonar.branch.name=${{ github.head_ref }}
