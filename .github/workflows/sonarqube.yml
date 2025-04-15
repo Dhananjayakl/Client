@@ -33,5 +33,5 @@ jobs:
           ./gradlew sonarqube \
             -Dsonar.projectKey=PRREVIEW \
             -Dsonar.host.url=http://192.168.1.229:9011/ \
-            -Dsonar.login=$PRREVIEW \
+            -Dsonar.login=$SONAR_TOKEN \
             -Dsonar.branch.name=${{ github.head_ref }}
